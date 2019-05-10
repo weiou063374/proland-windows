@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02BDC8FD-81EE-3AF9-8D6B-D0F4D585509C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ork</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\Proland_dev\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ork.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ork</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\github\new_proland_cmake\ork\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ork.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ork</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\github\new_proland_cmake\ork\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ork.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ork</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\github\new_proland_cmake\ork\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ork.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ork</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\;..\..\libraries;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ORK_API=__declspec(dllexport);TIXML_USE_STL;USEFREEGLUT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ORK_API=__declspec(dllexport);TIXML_USE_STL;USE_SHARED_PTR;USEFREEGLUT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ORK_API=__declspec(dllexport);TIXML_USE_STL;USE_SHARED_PTR;USEFREEGLUT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ORK_API=__declspec(dllexport);TIXML_USE_STL;USE_SHARED_PTR;USEFREEGLUT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ORK_API=__declspec(dllexport);TIXML_USE_STL;USE_SHARED_PTR;USEFREEGLUT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ORK_API=__declspec(dllexport);TIXML_USE_STL;USE_SHARED_PTR;USEFREEGLUT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ORK_API=__declspec(dllexport);TIXML_USE_STL;USE_SHARED_PTR;USEFREEGLUT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ORK_API=__declspec(dllexport);TIXML_USE_STL;USE_SHARED_PTR;USEFREEGLUT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\ork\include;F:\github\new_proland_cmake\ork;F:\github\new_proland_cmake\ork\libraries;F:\github\new_proland_cmake\ork\libraries\*;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\github\new_proland_cmake\ork\ork\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/github/new_proland_cmake/ork/ork/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/ork -BF:/github/new_proland_cmake/ork/vs_sln --check-stamp-file F:/github/new_proland_cmake/ork/vs_sln/ork/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/github/new_proland_cmake/ork/ork/CMakeLists.txt;F:\github\new_proland_cmake\ork\ork\CMakeLists.txt;F:\github\new_proland_cmake\ork\ork\ork.pc.in;F:\github\new_proland_cmake\ork\ork\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\github\new_proland_cmake\ork\vs_sln\ork\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/github/new_proland_cmake/ork/ork/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/ork -BF:/github/new_proland_cmake/ork/vs_sln --check-stamp-file F:/github/new_proland_cmake/ork/vs_sln/ork/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/github/new_proland_cmake/ork/ork/CMakeLists.txt;F:\github\new_proland_cmake\ork\ork\CMakeLists.txt;F:\github\new_proland_cmake\ork\ork\ork.pc.in;F:\github\new_proland_cmake\ork\ork\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\github\new_proland_cmake\ork\vs_sln\ork\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/github/new_proland_cmake/ork/ork/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/ork -BF:/github/new_proland_cmake/ork/vs_sln --check-stamp-file F:/github/new_proland_cmake/ork/vs_sln/ork/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/github/new_proland_cmake/ork/ork/CMakeLists.txt;F:\github\new_proland_cmake\ork\ork\CMakeLists.txt;F:\github\new_proland_cmake\ork\ork\ork.pc.in;F:\github\new_proland_cmake\ork\ork\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\github\new_proland_cmake\ork\vs_sln\ork\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/github/new_proland_cmake/ork/ork/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/ork -BF:/github/new_proland_cmake/ork/vs_sln --check-stamp-file F:/github/new_proland_cmake/ork/vs_sln/ork/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/github/new_proland_cmake/ork/ork/CMakeLists.txt;F:\github\new_proland_cmake\ork\ork\CMakeLists.txt;F:\github\new_proland_cmake\ork\ork\ork.pc.in;F:\github\new_proland_cmake\ork\ork\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\github\new_proland_cmake\ork\vs_sln\ork\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\core\FileLogger.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\core\GPUTimer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\core\Logger.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\core\Object.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\core\Timer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\math\half.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\AttributeBuffer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Buffer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\CPUBuffer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\FrameBuffer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\GPUBuffer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\MeshBuffers.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Module.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Program.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Query.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\RenderBuffer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Sampler.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Texture.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Texture1D.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Texture1DArray.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Texture2D.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Texture2DArray.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Texture2DMultisample.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Texture2DMultisampleArray.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Texture3D.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\TextureBuffer.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\TextureCube.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\TextureCubeArray.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\TextureRectangle.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\TransformFeedback.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Types.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Uniform.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\render\Value.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\resource\CompiledResourceLoader.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\resource\Resource.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\resource\ResourceCompiler.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\resource\ResourceDescriptor.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\resource\ResourceFactory.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\resource\ResourceLoader.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\resource\ResourceManager.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\resource\XMLResourceLoader.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\AbstractTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\CallMethodTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\DrawMeshTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\LoopTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\Method.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\SceneManager.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\SceneNode.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\SequenceTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\SetProgramTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\SetStateTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\SetTargetTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\SetTransformsTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\ShowInfoTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\scenegraph\ShowLogTask.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\taskgraph\MultithreadScheduler.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\taskgraph\Scheduler.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\taskgraph\Task.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\taskgraph\TaskFactory.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\taskgraph\TaskGraph.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\ui\DebugCallback.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\ui\EventHandler.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\ui\GlfwWindow.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\ui\Window.cpp" />
+    <ClCompile Include="F:\github\new_proland_cmake\ork\ork\util\Font.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\github\new_proland_cmake\ork\vs_sln\libraries\stbi\stb_image.vcxproj">
+      <Project>{FD885CDC-DD6F-35AE-9B7D-785EC0723EF8}</Project>
+      <Name>stb_image</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\ork\vs_sln\libraries\tinyxml\tinyxml.vcxproj">
+      <Project>{9613DF89-2B2A-3ADC-8BC8-1134507B6D3F}</Project>
+      <Name>tinyxml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

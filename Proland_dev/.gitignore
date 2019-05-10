@@ -1,0 +1,16 @@
+# Ignore all builds
+/build/
+# Ignore bin outut directory
+/bin/
+# Ignore library output directory
+/lib/
+/libraries/
+# Ignore demo binary in demo dir
+/demo/demo
+# Don't bring along the precomputed atmosperic scattering textures
+/demo/textures/atmo/*.raw
+/demo/log.html
+# Ignore data director (23 GB...)
+/data
+#ignore log files
+*.html

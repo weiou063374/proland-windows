@@ -1,0 +1,14 @@
+F:/github/new_proland_cmake/ork/vs_sln/CMakeFiles/INSTALL.dir
+F:/github/new_proland_cmake/ork/vs_sln/CMakeFiles/ALL_BUILD.dir
+F:/github/new_proland_cmake/ork/vs_sln/CMakeFiles/ZERO_CHECK.dir
+F:/github/new_proland_cmake/ork/vs_sln/libraries/CMakeFiles/INSTALL.dir
+F:/github/new_proland_cmake/ork/vs_sln/libraries/stbi/CMakeFiles/stb_image.dir
+F:/github/new_proland_cmake/ork/vs_sln/libraries/stbi/CMakeFiles/INSTALL.dir
+F:/github/new_proland_cmake/ork/vs_sln/libraries/tinyxml/CMakeFiles/INSTALL.dir
+F:/github/new_proland_cmake/ork/vs_sln/libraries/tinyxml/CMakeFiles/tinyxml.dir
+F:/github/new_proland_cmake/ork/vs_sln/ork/CMakeFiles/ork.dir
+F:/github/new_proland_cmake/ork/vs_sln/ork/CMakeFiles/INSTALL.dir
+F:/github/new_proland_cmake/ork/vs_sln/examples/CMakeFiles/ork-examples.dir
+F:/github/new_proland_cmake/ork/vs_sln/examples/CMakeFiles/INSTALL.dir
+F:/github/new_proland_cmake/ork/vs_sln/test/CMakeFiles/ork-test.dir
+F:/github/new_proland_cmake/ork/vs_sln/test/CMakeFiles/INSTALL.dir

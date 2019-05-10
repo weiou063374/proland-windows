@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/Ork
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: ork
+Description: OpenGL Rendering Kernel
+Version: 3.2
+Requires:
+Libs: -L${libdir} -lork
+Cflags: -I${includedir} -DORK_API= -DTIXML_USE_STL;-DUSE_SHARED_PTR;-DUSEFREEGLUT
