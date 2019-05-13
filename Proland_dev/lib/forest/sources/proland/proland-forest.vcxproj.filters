@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\ForestPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\plants\DrawPlantsShadowTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\plants\DrawPlantsTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\plants\LccProducer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\plants\Plants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\plants\PlantsProducer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\preprocess\trees\PreprocessTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\preprocess\trees\PreprocessTreeTables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\github\new_proland_cmake\Proland_dev\forest\sources\proland\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{70537FCF-6EEF-3623-BE49-1FA56817F9F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

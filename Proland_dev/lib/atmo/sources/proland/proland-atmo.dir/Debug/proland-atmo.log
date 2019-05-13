@@ -1,0 +1,43 @@
+﻿  Building Custom Rule F:/github/new_proland_cmake/Proland_dev/atmo/sources/proland/CMakeLists.txt
+  CMake does not need to re-run because F:/github/new_proland_cmake/Proland_dev/lib/atmo/sources/proland/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+  PreprocessAtmo.cpp
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(111): warning C4305: “初始化”: 从“double”到“float”截断
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(111): warning C4305: “参数”: 从“double”到“type”截断
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(279): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=GLfloat
+          ]
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(282): warning C4244: “参数”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(330): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=GLfloat
+          ]
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(339): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=GLfloat
+          ]
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(379): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(396): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(413): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland\preprocess\atmo\PreprocessAtmo.cpp(441): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+  proland-atmo.vcxproj -> F:\github\new_proland_cmake\Proland_dev\lib\Debug\proland-atmo.lib

@@ -1,0 +1,157 @@
+﻿cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+  EditPlugin.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland\EditPlugin.cpp(48): warning C4273: “proland::initEditPlugin”: dll 链接不一致
+  F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/EditPlugin.h(51): note: 参见“initEditPlugin”的前一个定义
+  EditElevationProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditElevationProducer.h(45): fatal error C1083: 无法打开包括文件: “proland/dem/ElevationProducer.h”: No such file or directory
+  EditGraphOrthoLayer.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditGraphOrthoLayer.h(48): fatal error C1083: 无法打开包括文件: “proland/graph/producer/GraphProducer.h”: No such file or directory
+  EditHydroGraphOrthoLayer.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditGraphOrthoLayer.h(48): fatal error C1083: 无法打开包括文件: “proland/graph/producer/GraphProducer.h”: No such file or directory
+  EditOrthoCPUProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditOrthoCPUProducer.h(45): fatal error C1083: 无法打开包括文件: “proland/ortho/OrthoCPUProducer.h”: No such file or directory
+  EditOrthoProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/TileStorage.h(85): warning C4275: 非 dll 接口 class“ork::Object”用作 dll 接口 class“proland::TileStorage”的基
+  F:\github\new_proland_cmake\Proland_dev\include\ork/core/Object.h(118): note: 参见“ork::Object”的声明
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/TileStorage.h(84): note: 参见“proland::TileStorage”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/TileStorage.h(215): warning C4251: “proland::TileStorage::freeSlots”: class“std::list<proland::TileStorage::Slot *,std::allocator<_Ty>>”需要有 dll 接口由 class“proland::TileStorage”的客户端使用
+          with
+          [
+              _Ty=proland::TileStorage::Slot *
+          ]
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/TileStorage.h(215): note: 参见“std::list<proland::TileStorage::Slot *,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=proland::TileStorage::Slot *
+          ]
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(221): warning C4251: “proland::GPUTileStorage::textures”: class“std::vector<ork::ptr<ork::Texture2DArray>,std::allocator<_Ty>>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+          with
+          [
+              _Ty=ork::ptr<ork::Texture2DArray>
+          ]
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(221): note: 参见“std::vector<ork::ptr<ork::Texture2DArray>,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=ork::ptr<ork::Texture2DArray>
+          ]
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(242): warning C4251: “proland::GPUTileStorage::fbo”: class“ork::ptr<ork::FrameBuffer>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/TransformFeedback.h(120): note: 参见“ork::ptr<ork::FrameBuffer>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(247): warning C4251: “proland::GPUTileStorage::mipmapProg”: class“ork::ptr<ork::Program>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Program.h(101): note: 参见“ork::ptr<ork::Program>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(252): warning C4251: “proland::GPUTileStorage::mipmapParams”: class“ork::ptr<ork::Uniform4i>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1465): note: 参见“ork::ptr<ork::Uniform4i>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(259): warning C4251: “proland::GPUTileStorage::tileMap”: class“ork::ptr<ork::Texture2D>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/FrameBuffer.h(631): note: 参见“ork::ptr<ork::Texture2D>”的声明
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditOrthoProducer.h(46): fatal error C1083: 无法打开包括文件: “proland/ortho/OrthoProducer.h”: No such file or directory
+  EditResidualProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditResidualProducer.h(45): fatal error C1083: 无法打开包括文件: “proland/dem/ResidualProducer.h”: No such file or directory
+  EditorHandler.cpp
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainQuad.h(66): warning C4275: 非 dll 接口 class“ork::Object”用作 dll 接口 class“proland::TerrainQuad”的基
+  F:\github\new_proland_cmake\Proland_dev\include\ork/core/Object.h(118): note: 参见“ork::Object”的声明
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainQuad.h(65): note: 参见“proland::TerrainQuad”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainQuad.h(124): warning C4251: “proland::TerrainQuad::children”: class“ork::ptr<proland::TerrainQuad>”需要有 dll 接口由 class“proland::TerrainQuad”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainQuad.h(124): note: 参见“ork::ptr<proland::TerrainQuad>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(72): warning C4275: 非 dll 接口 class“ork::Object”用作 dll 接口 class“proland::Deformation”的基
+  F:\github\new_proland_cmake\Proland_dev\include\ork/core/Object.h(118): note: 参见“ork::Object”的声明
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(71): note: 参见“proland::Deformation”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(188): warning C4251: “proland::Deformation::cameraToScreen”: class“ork::mat4<float>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/math/mat4.h(285): note: 参见“ork::mat4<float>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(193): warning C4251: “proland::Deformation::localToScreen”: class“ork::mat4<double>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/math/mat4.h(291): note: 参见“ork::mat4<double>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(198): warning C4251: “proland::Deformation::localToTangent”: class“ork::mat3<float>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/math/mat3.h(246): note: 参见“ork::mat3<float>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(204): warning C4251: “proland::Deformation::lastNodeProg”: class“ork::ptr<ork::Program>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Program.h(101): note: 参见“ork::ptr<ork::Program>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(210): warning C4251: “proland::Deformation::lastQuadProg”: class“ork::ptr<ork::Program>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Program.h(101): note: 参见“ork::ptr<ork::Program>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(215): warning C4251: “proland::Deformation::offsetU”: class“ork::ptr<ork::Uniform4f>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1447): note: 参见“ork::ptr<ork::Uniform4f>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(222): warning C4251: “proland::Deformation::cameraU”: class“ork::ptr<ork::Uniform4f>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1447): note: 参见“ork::ptr<ork::Uniform4f>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(228): warning C4251: “proland::Deformation::blendingU”: class“ork::ptr<ork::Uniform2f>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1357): note: 参见“ork::ptr<ork::Uniform2f>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(233): warning C4251: “proland::Deformation::localToScreenU”: class“ork::ptr<ork::UniformMatrix4f>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1528): note: 参见“ork::ptr<ork::UniformMatrix4f>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(238): warning C4251: “proland::Deformation::tileToTangentU”: class“ork::ptr<ork::UniformMatrix3f>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1510): note: 参见“ork::ptr<ork::UniformMatrix3f>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(243): warning C4251: “proland::Deformation::screenQuadCornersU”: class“ork::ptr<ork::UniformMatrix4f>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1528): note: 参见“ork::ptr<ork::UniformMatrix4f>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/Deformation.h(249): warning C4251: “proland::Deformation::screenQuadVerticalsU”: class“ork::ptr<ork::UniformMatrix4f>”需要有 dll 接口由 class“proland::Deformation”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1528): note: 参见“ork::ptr<ork::UniformMatrix4f>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(78): warning C4275: 非 dll 接口 class“ork::Object”用作 dll 接口 class“proland::TerrainNode”的基
+  F:\github\new_proland_cmake\Proland_dev\include\ork/core/Object.h(118): note: 参见“ork::Object”的声明
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(77): note: 参见“proland::TerrainNode”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(86): warning C4251: “proland::TerrainNode::deform”: class“ork::ptr<proland::Deformation>”需要有 dll 接口由 class“proland::TerrainNode”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(86): note: 参见“ork::ptr<proland::Deformation>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(92): warning C4251: “proland::TerrainNode::root”: class“ork::ptr<proland::TerrainQuad>”需要有 dll 接口由 class“proland::TerrainNode”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainQuad.h(124): note: 参见“ork::ptr<proland::TerrainQuad>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(255): warning C4251: “proland::TerrainNode::deformedCameraPos”: class“ork::vec3<double>”需要有 dll 接口由 class“proland::TerrainNode”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/math/vec3.h(274): note: 参见“ork::vec3<double>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(260): warning C4251: “proland::TerrainNode::deformedFrustumPlanes”: class“ork::vec4<double>”需要有 dll 接口由 class“proland::TerrainNode”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/math/vec4.h(272): note: 参见“ork::vec4<double>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(265): warning C4251: “proland::TerrainNode::localCameraPos”: class“ork::vec3<double>”需要有 dll 接口由 class“proland::TerrainNode”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/math/vec3.h(274): note: 参见“ork::vec3<double>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/terrain/TerrainNode.h(280): warning C4251: “proland::TerrainNode::localCameraDir”: class“ork::mat2<float>”需要有 dll 接口由 class“proland::TerrainNode”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/math/mat2.h(220): note: 参见“ork::mat2<float>”的声明
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditorHandler.h(138): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“proland::Editor”的左侧
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditorHandler.h(277): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“proland::EditorHandler”的左侧
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland\edit\EditorHandler.cpp(218): warning C4244: “=”: 从“type”转换到“float”，可能丢失数据
+          with
+          [
+              type=double
+          ]
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland\edit\EditorHandler.cpp(234): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland\edit\EditorHandler.cpp(238): warning C4244: “参数”: 从“type”转换到“type”，可能丢失数据
+          with
+          [
+              type=double
+          ]
+          and
+          [
+              type=float
+          ]
+  TweakDemEditor.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/ui/twbar/TweakDemEditor.h(74): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“proland::TweakDemEditor”的左侧
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditElevationProducer.h(45): fatal error C1083: 无法打开包括文件: “proland/dem/ElevationProducer.h”: No such file or directory
+  TweakGraphLayer.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditGraphOrthoLayer.h(48): fatal error C1083: 无法打开包括文件: “proland/graph/producer/GraphProducer.h”: No such file or directory
+  TweakHydroGraphLayer.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditGraphOrthoLayer.h(48): fatal error C1083: 无法打开包括文件: “proland/graph/producer/GraphProducer.h”: No such file or directory
+  TweakOrthoEditor.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/ui/twbar/TweakOrthoEditor.h(74): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“proland::TweakOrthoEditor”的左侧
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/TileStorage.h(85): warning C4275: 非 dll 接口 class“ork::Object”用作 dll 接口 class“proland::TileStorage”的基
+  F:\github\new_proland_cmake\Proland_dev\include\ork/core/Object.h(118): note: 参见“ork::Object”的声明
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/TileStorage.h(84): note: 参见“proland::TileStorage”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/TileStorage.h(215): warning C4251: “proland::TileStorage::freeSlots”: class“std::list<proland::TileStorage::Slot *,std::allocator<_Ty>>”需要有 dll 接口由 class“proland::TileStorage”的客户端使用
+          with
+          [
+              _Ty=proland::TileStorage::Slot *
+          ]
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/TileStorage.h(215): note: 参见“std::list<proland::TileStorage::Slot *,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=proland::TileStorage::Slot *
+          ]
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(221): warning C4251: “proland::GPUTileStorage::textures”: class“std::vector<ork::ptr<ork::Texture2DArray>,std::allocator<_Ty>>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+          with
+          [
+              _Ty=ork::ptr<ork::Texture2DArray>
+          ]
+  F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(221): note: 参见“std::vector<ork::ptr<ork::Texture2DArray>,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=ork::ptr<ork::Texture2DArray>
+          ]
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(242): warning C4251: “proland::GPUTileStorage::fbo”: class“ork::ptr<ork::FrameBuffer>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/TransformFeedback.h(120): note: 参见“ork::ptr<ork::FrameBuffer>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(247): warning C4251: “proland::GPUTileStorage::mipmapProg”: class“ork::ptr<ork::Program>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Program.h(101): note: 参见“ork::ptr<ork::Program>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(252): warning C4251: “proland::GPUTileStorage::mipmapParams”: class“ork::ptr<ork::Uniform4i>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/Uniform.h(1465): note: 参见“ork::ptr<ork::Uniform4i>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\proland_include\proland/producer/GPUTileStorage.h(259): warning C4251: “proland::GPUTileStorage::tileMap”: class“ork::ptr<ork::Texture2D>”需要有 dll 接口由 class“proland::GPUTileStorage”的客户端使用
+  F:\github\new_proland_cmake\Proland_dev\include\ork/render/FrameBuffer.h(631): note: 参见“ork::ptr<ork::Texture2D>”的声明
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/edit/EditOrthoProducer.h(46): fatal error C1083: 无法打开包括文件: “proland/ortho/OrthoProducer.h”: No such file or directory
+  TweakRivers.cpp
+F:\github\new_proland_cmake\Proland_dev\edit\sources\proland/ui/twbar/TweakRivers.h(46): fatal error C1083: 无法打开包括文件: “proland/rivers/DrawRiversTask.h”: No such file or directory
+  正在生成代码...

@@ -1,0 +1,235 @@
+﻿cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+  ProlandDemo.cpp
+F:\github\new_proland_cmake\proland-windows\Proland_dev\include\ork/scenegraph/AbstractTask.h(82): warning C4251: “ork::AbstractTask::QualifiedName::target”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“ork::AbstractTask::QualifiedName”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\github\new_proland_cmake\proland-windows\Proland_dev\include\ork/scenegraph/AbstractTask.h(87): warning C4251: “ork::AbstractTask::QualifiedName::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“ork::AbstractTask::QualifiedName”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+..\..\demo\ProlandDemo.cpp(316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+..\..\demo\ProlandDemo.cpp(457): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+    正在创建库 ..\Debug\demo.lib 和对象 ..\Debug\demo.exp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+proland-core.lib(ElevationCurveData.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(CPUElevationProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(NormalProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ElevationProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ElevationMargin.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ElevationGraphLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EditElevationProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(WaterElevationLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(RoadElevationLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ResidualProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EditOrthoCPUProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EditorHandler.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EditHydroGraphOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EditGraphOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(BasicCurvePart.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Area.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EditResidualProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EditOrthoProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(CurvePart.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Curve.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ComposedMargin.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(BasicGraph.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LazyArea.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Graph.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(FileWriter.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(FileReader.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LineCurvePart.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LazyNode.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LazyGraph.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LazyCurve.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(CurveDataFactory.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(CurveData.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Node.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Margin.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(DrawOceanFFTTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Tesselator.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(GraphProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(GraphLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ForestOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(FieldsOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EmptyOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(DrawOceanTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(OrthoGPUProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(OrthoCPUProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(MaskOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LineOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TextureLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(RoadOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(OrthoProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(OrthoMargin.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ParticleProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ParticleLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LifeCycleParticleLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(WaterOrthoLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ScreenParticleLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ParticleGrid.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(RandomParticleLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ParticleStorage.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(DrawPlantsTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(DrawPlantsShadowTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(WorldParticleLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TerrainParticleLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(PreprocessAtmo.obj) : warning LNK4217: 本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int)) 在函数 "public: __thiscall proland::AtmoParameters::AtmoParameters(void)" (??0AtmoParameters@proland@@QAE@XZ) 中导入
+proland-core.lib(PlantsProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Plants.obj) : warning LNK4217: 本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int)) 在函数 "public: void __thiscall proland::Plants::setMaxDistance(float)" (?setMaxDistance@Plants@proland@@QAEXM@Z) 中导入
+proland-core.lib(LccProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Preprocess.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(HeightMipmap.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ColorMipmap.obj) : warning LNK4217: 本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int)) 在函数 "public: void __thiscall std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QAEXXZ) 中导入
+proland-core.lib(ApertureMipmap.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(CPUTileStorage.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(PreprocessTreeTables.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(PreprocessTree.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Util.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TileLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TileCache.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ObjectTileStorage.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(GPUTileStorage.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(HydroCurve.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(DrawRiversTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(AnimatedPerlinWaveTile.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TileProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LazyHydroGraph.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LazyHydroCurve.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(HydroGraphFactory.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(HydroGraph.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(PerlinWaveTile.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(HydroFlowTile.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(HydroFlowProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(LazyHydroGraphFactory.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(Deformation.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(CylindricalDeformation.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(WaveTile.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(UpdateRiversTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TerrainNode.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(SphericalDeformation.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(ReadbackManager.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(DrawTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(UpdateTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TileSamplerZ.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TileSampler.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TerrainQuad.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(MousePositionHandler.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(EventRecorder.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(BasicViewHandler.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(UpdateTileSamplersTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakBarManager.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakBarHandler.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(DrawTweakBarTask.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(SceneVisitor.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakOrthoEditor.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakHydroGraphLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakGraphLayer.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakDemEditor.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakViewHandler.obj) : warning LNK4217: 本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int)) 在函数 "public: void __thiscall std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QAEXXZ) 中导入
+proland-core.lib(TweakSceneGraph.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakRivers.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(TweakResource.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+ProlandDemo.obj : warning LNK4217: 本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int)) 在函数 "public: class proland::BasicViewHandler * __thiscall ork::ptr<class proland::BasicViewHandler>::operator->(void)const " (??C?$ptr@VBasicViewHandler@proland@@@ork@@QBEPAVBasicViewHandler@proland@@XZ) 中导入
+proland-core.lib(TerrainViewController.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(PlanetViewController.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(CylinderViewController.obj) : warning LNK4049: 已导入本地定义的符号 ?assertAndSegfault@@YAXPBD0H@Z (void __cdecl assertAndSegfault(char const *,char const *,int))
+proland-core.lib(UpdateTileSamplersTask.obj) : warning LNK4217: 本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@XZ (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(void)) 在函数 "public: __thiscall proland::UpdateTileSamplersTask::UpdateTileSamplersTask(struct ork::AbstractTask::QualifiedName const &)" (??0UpdateTileSamplersTask@proland@@QAE@ABUQualifiedName@AbstractTask@ork@@@Z) 中导入
+proland-core.lib(UpdateTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@XZ (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(void))
+proland-core.lib(DrawTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@XZ (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(void))
+proland-core.lib(UpdateTileSamplersTask.obj) : warning LNK4217: 本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)) 在函数 "public: __thiscall proland::UpdateTileSamplersTaskResource::UpdateTileSamplersTaskResource(class ork::ptr<class ork::ResourceManager>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class ork::ptr<class ork::ResourceDescriptor>,class TiXmlElement const *)" (??0UpdateTileSamplersTaskResource@proland@@QAE@V?$ptr@VResourceManager@ork@@@ork@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$ptr@VResourceDescriptor@ork@@@3@PBVTiXmlElement@@@Z) 中导入
+proland-core.lib(UpdateTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))
+proland-core.lib(DrawTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))
+proland-core.lib(UpdateTileSamplersTask.obj) : warning LNK4217: 本地定义的符号 ?getTarget@QualifiedName@AbstractTask@ork@@QAE?AV?$ptr@VSceneNode@ork@@@3@V43@@Z (public: class ork::ptr<class ork::SceneNode> __thiscall ork::AbstractTask::QualifiedName::getTarget(class ork::ptr<class ork::SceneNode>)) 在函数 "public: virtual class ork::ptr<class ork::Task> __thiscall proland::UpdateTileSamplersTask::getTask(class ork::ptr<class ork::Object>)" (?getTask@UpdateTileSamplersTask@proland@@UAE?AV?$ptr@VTask@ork@@@ork@@V?$ptr@VObject@ork@@@4@@Z) 中导入
+proland-core.lib(UpdateTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ?getTarget@QualifiedName@AbstractTask@ork@@QAE?AV?$ptr@VSceneNode@ork@@@3@V43@@Z (public: class ork::ptr<class ork::SceneNode> __thiscall ork::AbstractTask::QualifiedName::getTarget(class ork::ptr<class ork::SceneNode>))
+proland-core.lib(DrawTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ?getTarget@QualifiedName@AbstractTask@ork@@QAE?AV?$ptr@VSceneNode@ork@@@3@V43@@Z (public: class ork::ptr<class ork::SceneNode> __thiscall ork::AbstractTask::QualifiedName::getTarget(class ork::ptr<class ork::SceneNode>))
+proland-core.lib(UpdateTileSamplersTask.obj) : warning LNK4217: 本地定义的符号 ??1QualifiedName@AbstractTask@ork@@QAE@XZ (public: __thiscall ork::AbstractTask::QualifiedName::~QualifiedName(void)) 在函数 "public: virtual __thiscall proland::UpdateTileSamplersTask::~UpdateTileSamplersTask(void)" (??1UpdateTileSamplersTask@proland@@UAE@XZ) 中导入
+proland-core.lib(UpdateTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??1QualifiedName@AbstractTask@ork@@QAE@XZ (public: __thiscall ork::AbstractTask::QualifiedName::~QualifiedName(void))
+proland-core.lib(DrawTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??1QualifiedName@AbstractTask@ork@@QAE@XZ (public: __thiscall ork::AbstractTask::QualifiedName::~QualifiedName(void))
+proland-core.lib(UpdateTileSamplersTask.obj) : warning LNK4217: 本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@ABU012@@Z (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(struct ork::AbstractTask::QualifiedName const &)) 在函数 "public: __thiscall proland::UpdateTileSamplersTask::UpdateTileSamplersTask(class proland::UpdateTileSamplersTask const &)" (??0UpdateTileSamplersTask@proland@@QAE@ABV01@@Z) 中导入
+proland-core.lib(UpdateTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@ABU012@@Z (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(struct ork::AbstractTask::QualifiedName const &))
+proland-core.lib(DrawTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??0QualifiedName@AbstractTask@ork@@QAE@ABU012@@Z (public: __thiscall ork::AbstractTask::QualifiedName::QualifiedName(struct ork::AbstractTask::QualifiedName const &))
+proland-core.lib(UpdateTileSamplersTask.obj) : warning LNK4217: 本地定义的符号 ??4QualifiedName@AbstractTask@ork@@QAEAAU012@ABU012@@Z (public: struct ork::AbstractTask::QualifiedName & __thiscall ork::AbstractTask::QualifiedName::operator=(struct ork::AbstractTask::QualifiedName const &)) 在函数 "protected: void __thiscall proland::UpdateTileSamplersTask::init(struct ork::AbstractTask::QualifiedName const &)" (?init@UpdateTileSamplersTask@proland@@IAEXABUQualifiedName@AbstractTask@ork@@@Z) 中导入
+proland-core.lib(UpdateTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??4QualifiedName@AbstractTask@ork@@QAEAAU012@ABU012@@Z (public: struct ork::AbstractTask::QualifiedName & __thiscall ork::AbstractTask::QualifiedName::operator=(struct ork::AbstractTask::QualifiedName const &))
+proland-core.lib(DrawTerrainTask.obj) : warning LNK4049: 已导入本地定义的符号 ??4QualifiedName@AbstractTask@ork@@QAEAAU012@ABU012@@Z (public: struct ork::AbstractTask::QualifiedName & __thiscall ork::AbstractTask::QualifiedName::operator=(struct ork::AbstractTask::QualifiedName const &))
+proland-core.lib(OrthoCPUProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *))
+proland-core.lib(ResidualProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *))
+proland-core.lib(HeightMipmap.obj) : warning LNK4049: 已导入本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *))
+proland-core.lib(ColorMipmap.obj) : warning LNK4049: 已导入本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *))
+proland-core.lib(ApertureMipmap.obj) : warning LNK4217: 本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *)) 在函数 "public: struct std::_Tree_node<struct std::pair<int const ,class std::_List_iterator<class std::_List_val<struct std::_List_simple_types<struct proland::FloatTileCache::FloatTile *> > > >,void *> * __thiscall std::_Tree_comp_alloc<class std::_Tmap_traits<int,class std::_List_iterator<class std::_List_val<struct std::_List_simple_types<struct proland::FloatTileCache::FloatTile *> > >,struct std::less<int>,class std::allocator<struct std::pair<int const ,class std::_List_iterator<class std::_List_val<struct std::_List_simple_types<struct proland::FloatTileCache::FloatTile *> > > > >,0> >::_Buynode<struct std::piecewise_construct_t const &,class std::tuple<int const &>,class std::tuple<> >(struct std::piecewise_construct_t const &,class std::tuple<int const &> &&,class std::tuple<> &&)" (??$_Buynode@ABUpiecewise_construct_t@std@@V?$tuple@ABH@2@V?$tuple@$$V@2@@?$_Tree_comp_alloc@V?$_Tmap_traits@HV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAUFloatTile@FloatTileCache@proland@@@std@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAUFloatTile@FloatTileCache@proland@@@std@@@std@@@std@@@std@@@2@$0A@@std@@@std@@QAEPAU?$_Tree_node@U?$pair@$$CBHV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAUFloatTile@FloatTileCache@proland@@@std@@@std@@@std@@@std@@PAX@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABH@1@$$QAV?$tuple@$$V@1@@Z) 中导入
+proland-core.lib(PreprocessAtmo.obj) : warning LNK4049: 已导入本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *))
+proland-core.lib(PreprocessTreeTables.obj) : warning LNK4217: 本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *)) 在函数 "void __cdecl proland::mergeTreeTables(char const *,char const *,char const *)" (?mergeTreeTables@proland@@YAXPBD00@Z) 中导入
+proland-core.lib(PreprocessTree.obj) : warning LNK4217: 本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *)) 在函数 "protected: void __thiscall std::_Tree<class std::_Tset_traits<int,struct std::less<int>,class std::allocator<int>,0> >::_Erase(struct std::_Tree_node<int,void *> *)" (?_Erase@?$_Tree@V?$_Tset_traits@HU?$less@H@std@@V?$allocator@H@2@$0A@@std@@@std@@IAEXPAU?$_Tree_node@HPAX@2@@Z) 中导入
+proland-core.lib(Util.obj) : warning LNK4049: 已导入本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *))
+proland-core.lib(Preprocess.obj) : warning LNK4217: 本地定义的符号 ?fopen@@YAXPAPAU_iobuf@@PBD1@Z (void __cdecl fopen(struct _iobuf * *,char const *,char const *)) 在函数 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Reallocate_for<class <lambda_9366063389c5f42a00a5088cf24e69de>,char const *>(unsigned int,class <lambda_9366063389c5f42a00a5088cf24e69de>,char const *)" (??$_Reallocate_for@V<lambda_9366063389c5f42a00a5088cf24e69de>@@PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@IV<lambda_9366063389c5f42a00a5088cf24e69de>@@PBD@Z) 中导入
+proland-core.lib(ColorMipmap.obj) : warning LNK4217: 本地定义的符号 ?fseek64@@YAXPAU_iobuf@@_JH@Z (void __cdecl fseek64(struct _iobuf *,__int64,int)) 在函数 "protected: void __thiscall proland::ColorMipmap::readInputTile(int,int,int)" (?readInputTile@ColorMipmap@proland@@IAEXHHH@Z) 中导入
+proland-core.lib(ApertureMipmap.obj) : warning LNK4217: 本地定义的符号 ?fseek64@@YAXPAU_iobuf@@_JH@Z (void __cdecl fseek64(struct _iobuf *,__int64,int)) 在函数 __catch$?_Buyheadnode@?$_Tree_comp_alloc@V?$_Tmap_traits@HV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAUFloatTile@FloatTileCache@proland@@@std@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAUFloatTile@FloatTileCache@proland@@@std@@@std@@@std@@@std@@@2@$0A@@std@@@std@@QAEPAU?$_Tree_node@U?$pair@$$CBHV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAUFloatTile@FloatTileCache@proland@@@std@@@std@@@std@@@std@@PAX@2@XZ$0 中导入
+proland-core.lib(OrthoCPUProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?fseek64@@YAXPAU_iobuf@@_JH@Z (void __cdecl fseek64(struct _iobuf *,__int64,int))
+proland-core.lib(ResidualProducer.obj) : warning LNK4049: 已导入本地定义的符号 ?fseek64@@YAXPAU_iobuf@@_JH@Z (void __cdecl fseek64(struct _iobuf *,__int64,int))
+ork.lib(FileLogger.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(FileLogger.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(GPUTimer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(GPUTimer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Logger.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Logger.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Object.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Object.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Timer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Timer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(half.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(half.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(AttributeBuffer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(AttributeBuffer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Buffer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Buffer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(CPUBuffer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(CPUBuffer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(FrameBuffer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(FrameBuffer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(GPUBuffer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(GPUBuffer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(MeshBuffers.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(MeshBuffers.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Module.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Module.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Program.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Program.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Query.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Query.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(RenderBuffer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(RenderBuffer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Sampler.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Sampler.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Texture.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Texture.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Texture1D.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Texture1D.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Texture1DArray.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Texture1DArray.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Texture2D.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Texture2D.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Texture2DArray.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Texture2DArray.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Texture2DMultisample.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Texture2DMultisample.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Texture2DMultisampleArray.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Texture2DMultisampleArray.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Texture3D.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Texture3D.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(TextureBuffer.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(TextureBuffer.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(TextureCube.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(TextureCube.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(TextureCubeArray.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(TextureCubeArray.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(TextureRectangle.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(TextureRectangle.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(TransformFeedback.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(TransformFeedback.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Types.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Types.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Uniform.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Uniform.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Value.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Value.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(CompiledResourceLoader.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(CompiledResourceLoader.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Resource.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Resource.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(ResourceCompiler.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(ResourceCompiler.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(ResourceDescriptor.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(ResourceDescriptor.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(ResourceFactory.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(ResourceFactory.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(ResourceLoader.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(ResourceLoader.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(ResourceManager.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(ResourceManager.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(XMLResourceLoader.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(XMLResourceLoader.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(AbstractTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(AbstractTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(CallMethodTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(CallMethodTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(DrawMeshTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(DrawMeshTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(LoopTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(LoopTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Method.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Method.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(SceneManager.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(SceneManager.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(SceneNode.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(SceneNode.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(SequenceTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(SequenceTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(SetProgramTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(SetProgramTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(SetStateTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(SetStateTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(SetTargetTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(SetTargetTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(SetTransformsTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(SetTransformsTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(ShowInfoTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(ShowInfoTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(ShowLogTask.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(ShowLogTask.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(MultithreadScheduler.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(MultithreadScheduler.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Scheduler.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Scheduler.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Task.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Task.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(TaskFactory.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(TaskFactory.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(TaskGraph.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(TaskGraph.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(DebugCallback.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(DebugCallback.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(EventHandler.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(EventHandler.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(GlfwWindow.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(GlfwWindow.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Window.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Window.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ork.lib(Font.obj) : warning LNK4099: 未找到 PDB“ork.pdb”(使用“ork.lib(Font.obj)”或在“F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\Debug\ork.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  demo.vcxproj -> F:\github\new_proland_cmake\proland-windows\Proland_dev\lib\demo\..\Debug\demo.exe

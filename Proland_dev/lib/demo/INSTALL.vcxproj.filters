@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\46ffd86c2e7f078895d71c86e4be1bd7\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{63D1226F-7292-3ADB-A1EB-5F0E2A8B3C0B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

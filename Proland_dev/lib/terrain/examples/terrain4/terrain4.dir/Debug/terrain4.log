@@ -1,0 +1,5 @@
+﻿  Building Custom Rule F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain4/CMakeLists.txt
+  CMake does not need to re-run because F:/github/new_proland_cmake/Proland_dev/lib/terrain/examples/terrain4/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+  HelloWorld.cpp

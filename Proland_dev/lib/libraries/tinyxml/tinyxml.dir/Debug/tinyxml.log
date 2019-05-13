@@ -1,0 +1,9 @@
+﻿  Building Custom Rule F:/github/new_proland_cmake/Proland_dev/libraries/tinyxml/CMakeLists.txt
+  CMake does not need to re-run because F:/github/new_proland_cmake/Proland_dev/lib/libraries/tinyxml/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  正在生成代码...
+  tinyxml.vcxproj -> F:\github\new_proland_cmake\Proland_dev\lib\libraries\tinyxml\Debug\tinyxml.lib

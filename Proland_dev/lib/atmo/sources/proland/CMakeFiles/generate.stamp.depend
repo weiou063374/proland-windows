@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+F:/github/new_proland_cmake/Proland_dev/atmo/sources/proland/CMakeLists.txt
+F:/github/new_proland_cmake/Proland_dev/atmo/sources/proland/proland-atmo.pc.in
+F:/github/new_proland_cmake/Proland_dev/cmake/Findproland-core.cmake

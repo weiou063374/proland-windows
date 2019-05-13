@@ -1,0 +1,144 @@
+﻿  Building Custom Rule F:/github/new_proland_cmake/Proland_dev/terrain/sources/proland/CMakeLists.txt
+  CMake does not need to re-run because F:/github/new_proland_cmake/Proland_dev/lib/terrain/sources/proland/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+  TerrainPlugin.cpp
+  CPUElevationProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/dem/CPUElevationProducer.h(45): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  ElevationProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/dem/ElevationProducer.h(50): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  NormalProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/dem/NormalProducer.h(48): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  ResidualProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/dem/ResidualProducer.h(48): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  EmptyOrthoLayer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/ortho/EmptyOrthoLayer.h(46): fatal error C1083: 无法打开包括文件: “proland/producer/TileLayer.h”: No such file or directory
+  OrthoCPUProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/ortho/OrthoCPUProducer.h(47): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  OrthoGPUProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/ortho/OrthoGPUProducer.h(48): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  OrthoProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/ortho/OrthoProducer.h(49): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  TextureLayer.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/ortho/TextureLayer.h(47): fatal error C1083: 无法打开包括文件: “proland/producer/TileLayer.h”: No such file or directory
+  AbstractTileCache.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(89): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(89): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(90): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(90): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(91): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(92): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(110): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(110): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(111): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\AbstractTileCache.cpp(111): error C3861: “max”: 找不到标识符
+  ApertureMipmap.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\ApertureMipmap.cpp(47): fatal error C1083: 无法打开包括文件: “proland/util/mfs.h”: No such file or directory
+  ColorMipmap.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\ColorMipmap.cpp(48): fatal error C1083: 无法打开包括文件: “proland/util/mfs.h”: No such file or directory
+  HeightMipmap.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\HeightMipmap.cpp(48): fatal error C1083: 无法打开包括文件: “proland/util/mfs.h”: No such file or directory
+  Preprocess.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland/preprocess/terrain/Preprocess.h(170): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::InputMap”的左侧
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(147): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(147): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(148): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(148): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(173): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(173): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(174): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(174): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(183): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(183): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(184): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(184): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(193): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(193): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(194): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(194): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(203): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(203): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(204): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(204): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(213): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(213): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(214): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(214): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(223): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(223): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(224): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(224): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(293): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(293): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(294): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(294): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(303): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(303): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(304): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(304): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(313): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(313): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(314): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(314): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(323): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(323): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(324): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(324): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(333): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(333): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(334): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(334): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(343): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(343): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(344): error C3861: “min”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(344): error C3861: “max”: 找不到标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(380): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(414): warning C4244: “=”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(415): warning C4244: “=”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(416): warning C4244: “=”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(417): warning C4244: “=”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(459): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(501): warning C4244: “=”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(502): warning C4244: “=”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(503): warning C4244: “=”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(504): warning C4244: “=”: 从“double”转换到“type”，可能丢失数据
+          with
+          [
+              type=float
+          ]
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(525): error C2065: “S_IRWXU”: 未声明的标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(525): error C2065: “S_IRWXG”: 未声明的标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(525): error C2065: “S_IROTH”: 未声明的标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(525): error C2065: “S_IXOTH”: 未声明的标识符
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Preprocess.cpp(525): error C3861: “mkdir”: 找不到标识符
+  Util.cpp
+F:\github\new_proland_cmake\Proland_dev\terrain\sources\proland\preprocess\terrain\Util.cpp(51): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+  正在生成代码...

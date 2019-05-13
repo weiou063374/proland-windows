@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31E057BD-4367-3DA0-A3F4-A559E34EE51D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/github/new_proland_cmake/Proland_dev/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/Proland_dev -BF:/github/new_proland_cmake/Proland_dev/lib --check-stamp-file F:/github/new_proland_cmake/Proland_dev/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/github/new_proland_cmake/Proland_dev/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\cmake\Findanttweakbar.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findfreeglut.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findglew.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findglfw3.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findork.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findpthread.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findstb_image.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findtiff.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findtinyxml.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeCCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeSystem.cmake;F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/github/new_proland_cmake/Proland_dev/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/Proland_dev -BF:/github/new_proland_cmake/Proland_dev/lib --check-stamp-file F:/github/new_proland_cmake/Proland_dev/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/github/new_proland_cmake/Proland_dev/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\cmake\Findanttweakbar.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findfreeglut.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findglew.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findglfw3.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findork.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findpthread.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findstb_image.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findtiff.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findtinyxml.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeCCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeSystem.cmake;F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/github/new_proland_cmake/Proland_dev/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/Proland_dev -BF:/github/new_proland_cmake/Proland_dev/lib --check-stamp-file F:/github/new_proland_cmake/Proland_dev/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/github/new_proland_cmake/Proland_dev/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\cmake\Findanttweakbar.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findfreeglut.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findglew.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findglfw3.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findork.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findpthread.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findstb_image.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findtiff.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findtinyxml.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeCCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeSystem.cmake;F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/github/new_proland_cmake/Proland_dev/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/Proland_dev -BF:/github/new_proland_cmake/Proland_dev/lib --check-stamp-file F:/github/new_proland_cmake/Proland_dev/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/github/new_proland_cmake/Proland_dev/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\cmake\Findanttweakbar.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findfreeglut.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findglew.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findglfw3.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findork.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findpthread.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findstb_image.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findtiff.cmake;F:\github\new_proland_cmake\Proland_dev\cmake\Findtinyxml.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeCCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\3.14.3\CMakeSystem.cmake;F:\github\new_proland_cmake\Proland_dev\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\github\new_proland_cmake\Proland_dev\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\ZERO_CHECK.vcxproj">
+      <Project>{C148DCCB-880C-3F33-9B8A-57311AEAB324}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\atmo\examples\atmo\atmo.vcxproj">
+      <Project>{494D8ECB-485F-30DB-9F74-87A8435D1780}</Project>
+      <Name>atmo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\core\examples\helloworld\core-helloworld.vcxproj">
+      <Project>{3D2CAD92-FAA2-34A6-828F-A7F341F1C8FC}</Project>
+      <Name>core-helloworld</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\demo\demo.vcxproj">
+      <Project>{B378CCB4-5EB0-31EC-9497-84F5642EEC7D}</Project>
+      <Name>demo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\edit\examples\edit1\edit1.vcxproj">
+      <Project>{2CF02D37-9744-3D34-9A58-D1DC2BBF5D08}</Project>
+      <Name>edit1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\edit\examples\edit2\edit2.vcxproj">
+      <Project>{2F42AB36-89D4-3F26-8C22-D95393C28B52}</Project>
+      <Name>edit2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\edit\examples\edit3\edit3.vcxproj">
+      <Project>{2D236062-91A0-3CAD-ACED-4051AC6E5F4D}</Project>
+      <Name>edit3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\edit\examples\edit4\edit4.vcxproj">
+      <Project>{AA627038-221C-3630-BF1D-8AF020CB844E}</Project>
+      <Name>edit4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\graph\examples\graph1\graph1.vcxproj">
+      <Project>{C9FF9FC3-7401-3745-ADE0-9BF60B9C8808}</Project>
+      <Name>graph1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\ocean\examples\ocean1\ocean1.vcxproj">
+      <Project>{C5C74BB5-E9E8-355F-93BF-7220D8911379}</Project>
+      <Name>ocean1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\ocean\examples\ocean2\ocean2.vcxproj">
+      <Project>{B00AD509-3605-3D6D-9F55-FE37D4908450}</Project>
+      <Name>ocean2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\preprocess\preprocess.vcxproj">
+      <Project>{3DBC25FE-7B98-3747-988C-CC3B36C6D792}</Project>
+      <Name>preprocess</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\preprocess2\preprocess2.vcxproj">
+      <Project>{816361A3-1D98-3A2B-88D3-08378BD3392E}</Project>
+      <Name>preprocess2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\atmo\sources\proland\proland-atmo.vcxproj">
+      <Project>{AC6CFA31-EEAA-3A90-ADCC-B436F4B44FD0}</Project>
+      <Name>proland-atmo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\core\sources\proland\proland-core.vcxproj">
+      <Project>{11F4E340-209C-3164-BB0C-E84B6C9FB8FA}</Project>
+      <Name>proland-core</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\edit\sources\proland\proland-edit.vcxproj">
+      <Project>{1F82863E-0CA3-3CE9-9644-C7B0F51843B8}</Project>
+      <Name>proland-edit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\forest\sources\proland\proland-forest.vcxproj">
+      <Project>{A3A77892-D47E-3AF8-A890-FB3C286D46D1}</Project>
+      <Name>proland-forest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\graph\sources\proland\proland-graph.vcxproj">
+      <Project>{55F61F17-7647-36E1-9623-B5D9733F0B73}</Project>
+      <Name>proland-graph</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\ocean\sources\proland\proland-ocean.vcxproj">
+      <Project>{2373E577-FA1D-3631-9539-AB72F20A5AA1}</Project>
+      <Name>proland-ocean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\river\sources\proland\proland-river.vcxproj">
+      <Project>{D86B43E1-FF71-3347-A3F0-DAC808326608}</Project>
+      <Name>proland-river</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\sources\proland\proland-terrain.vcxproj">
+      <Project>{44408BA1-7F65-3544-96B9-AC020468BF1C}</Project>
+      <Name>proland-terrain</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\river\examples\river1\river1.vcxproj">
+      <Project>{4FF5B399-54C4-3F2E-8BAE-D4433AFB9451}</Project>
+      <Name>river1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\libraries\stbi\stb_image.vcxproj">
+      <Project>{524214D4-9DAD-3AF3-952C-88A73F2BE264}</Project>
+      <Name>stb_image</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain1\terrain1.vcxproj">
+      <Project>{7C1BDA76-06FF-3381-8EC6-9F853D1D42B4}</Project>
+      <Name>terrain1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain2\terrain2.vcxproj">
+      <Project>{E7D753E3-FCA2-3AF5-BB19-DA0106D4BE95}</Project>
+      <Name>terrain2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain3\terrain3.vcxproj">
+      <Project>{CEA81932-F323-3EEB-B02F-17BB50DC722D}</Project>
+      <Name>terrain3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain4\terrain4.vcxproj">
+      <Project>{4F45026E-B54B-343D-B05D-8E5F44FCE41E}</Project>
+      <Name>terrain4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain5\terrain5.vcxproj">
+      <Project>{8516AD45-8DC9-3DAE-85A8-CB9AE4C6B493}</Project>
+      <Name>terrain5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\libraries\tinyxml\tinyxml.vcxproj">
+      <Project>{EA25CB7F-DE50-39F5-A907-10374614CA72}</Project>
+      <Name>tinyxml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\forest\examples\trees1\trees1.vcxproj">
+      <Project>{9F1A3358-AA18-3168-8B39-B3315135F6F8}</Project>
+      <Name>trees1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\core\examples\twbartest\twbartest.vcxproj">
+      <Project>{E11B78C1-ADD5-3FE8-B0C3-A068D60400DE}</Project>
+      <Name>twbartest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

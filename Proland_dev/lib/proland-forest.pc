@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/Proland
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: proland forest
+Description: OpenGL Rendering Kernel
+Version: 4.0
+Requires:
+Libs: -L${libdir} -lproland-forest
+Cflags: -I${includedir} 

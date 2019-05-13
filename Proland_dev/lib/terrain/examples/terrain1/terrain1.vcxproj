@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C1BDA76-06FF-3381-8EC6-9F853D1D42B4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>terrain1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\github\new_proland_cmake\Proland_dev\bin\examples\terrain\terrain1\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">terrain1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">terrain1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\github\new_proland_cmake\Proland_dev\bin\examples\terrain\terrain1\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">terrain1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">terrain1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\github\new_proland_cmake\Proland_dev\bin\examples\terrain\terrain1\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">terrain1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">terrain1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\github\new_proland_cmake\Proland_dev\bin\examples\terrain\terrain1\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">terrain1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">terrain1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;ORK_API=;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;ORK_API=;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>				</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1 F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/../common F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/CMakeLists.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/*.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/*.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-Wl,--whole-archive;..\..\..\Debug\proland-core.lib;..\..\..\Debug\proland-terrain.lib;ork.lib;-Wl,--no-whole-archive;pthread.lib;GL.lib;GLU.lib;GLEW.lib;glut.lib;glfw3.lib;rt.lib;dl.lib;Xrandr.lib;Xinerama.lib;Xxf86vm.lib;Xext.lib;Xcursor.lib;Xrender.lib;Xfixes.lib;X11.lib;tiff.lib;AntTweakBar.lib;..\..\..\libraries\stbi\Debug\stb_image.lib;..\..\..\libraries\tinyxml\Debug\tinyxml.lib;..\..\..\ork.lib;..\..\..\pthreadVCE2.lib;..\..\..\AntTweakBar.lib;..\..\..\libtiff3.lib;..\..\..\stb_image.lib;..\..\..\tinyxml.lib;glu32.lib;opengl32.lib;..\..\..\glew32.lib;..\..\..\glfw3.lib;..\..\..\freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib;F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib;F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/ork.lib;F:/github/new_proland_cmake/Proland_dev/lib/ork.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/libraries;F:/github/new_proland_cmake/Proland_dev/libraries/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/Debug/terrain1.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/Debug/terrain1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;ORK_API=;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;ORK_API=;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>				</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1 F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/../common F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/CMakeLists.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/*.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/*.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-Wl,--whole-archive;..\..\..\Release\proland-core.lib;..\..\..\Release\proland-terrain.lib;ork.lib;-Wl,--no-whole-archive;pthread.lib;GL.lib;GLU.lib;GLEW.lib;glut.lib;glfw3.lib;rt.lib;dl.lib;Xrandr.lib;Xinerama.lib;Xxf86vm.lib;Xext.lib;Xcursor.lib;Xrender.lib;Xfixes.lib;X11.lib;tiff.lib;AntTweakBar.lib;..\..\..\libraries\stbi\Release\stb_image.lib;..\..\..\libraries\tinyxml\Release\tinyxml.lib;..\..\..\ork.lib;..\..\..\pthreadVCE2.lib;..\..\..\AntTweakBar.lib;..\..\..\libtiff3.lib;..\..\..\stb_image.lib;..\..\..\tinyxml.lib;glu32.lib;opengl32.lib;..\..\..\glew32.lib;..\..\..\glfw3.lib;..\..\..\freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib;F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib;F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/ork.lib;F:/github/new_proland_cmake/Proland_dev/lib/ork.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/libraries;F:/github/new_proland_cmake/Proland_dev/libraries/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/Release/terrain1.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/Release/terrain1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;ORK_API=;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;ORK_API=;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>				</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1 F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/../common F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/CMakeLists.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/*.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/*.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-Wl,--whole-archive;..\..\..\MinSizeRel\proland-core.lib;..\..\..\MinSizeRel\proland-terrain.lib;ork.lib;-Wl,--no-whole-archive;pthread.lib;GL.lib;GLU.lib;GLEW.lib;glut.lib;glfw3.lib;rt.lib;dl.lib;Xrandr.lib;Xinerama.lib;Xxf86vm.lib;Xext.lib;Xcursor.lib;Xrender.lib;Xfixes.lib;X11.lib;tiff.lib;AntTweakBar.lib;..\..\..\libraries\stbi\MinSizeRel\stb_image.lib;..\..\..\libraries\tinyxml\MinSizeRel\tinyxml.lib;..\..\..\ork.lib;..\..\..\pthreadVCE2.lib;..\..\..\AntTweakBar.lib;..\..\..\libtiff3.lib;..\..\..\stb_image.lib;..\..\..\tinyxml.lib;glu32.lib;opengl32.lib;..\..\..\glew32.lib;..\..\..\glfw3.lib;..\..\..\freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib;F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib;F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/ork.lib;F:/github/new_proland_cmake/Proland_dev/lib/ork.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/libraries;F:/github/new_proland_cmake/Proland_dev/libraries/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/MinSizeRel/terrain1.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/MinSizeRel/terrain1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;ORK_API=;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;ORK_API=;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>				</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1 F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/../common F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/CMakeLists.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/*.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/*.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-Wl,--whole-archive;..\..\..\RelWithDebInfo\proland-core.lib;..\..\..\RelWithDebInfo\proland-terrain.lib;ork.lib;-Wl,--no-whole-archive;pthread.lib;GL.lib;GLU.lib;GLEW.lib;glut.lib;glfw3.lib;rt.lib;dl.lib;Xrandr.lib;Xinerama.lib;Xxf86vm.lib;Xext.lib;Xcursor.lib;Xrender.lib;Xfixes.lib;X11.lib;tiff.lib;AntTweakBar.lib;..\..\..\libraries\stbi\RelWithDebInfo\stb_image.lib;..\..\..\libraries\tinyxml\RelWithDebInfo\tinyxml.lib;..\..\..\ork.lib;..\..\..\pthreadVCE2.lib;..\..\..\AntTweakBar.lib;..\..\..\libtiff3.lib;..\..\..\stb_image.lib;..\..\..\tinyxml.lib;glu32.lib;opengl32.lib;..\..\..\glew32.lib;..\..\..\glfw3.lib;..\..\..\freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib;F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib;F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/ork.lib;F:/github/new_proland_cmake/Proland_dev/lib/ork.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/libraries;F:/github/new_proland_cmake/Proland_dev/libraries/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/RelWithDebInfo/terrain1.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/new_proland_cmake/Proland_dev/bin/examples/terrain/terrain1/RelWithDebInfo/terrain1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/Proland_dev -BF:/github/new_proland_cmake/Proland_dev/lib --check-stamp-file F:/github/new_proland_cmake/Proland_dev/lib/terrain/examples/terrain1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/Proland_dev -BF:/github/new_proland_cmake/Proland_dev/lib --check-stamp-file F:/github/new_proland_cmake/Proland_dev/lib/terrain/examples/terrain1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/Proland_dev -BF:/github/new_proland_cmake/Proland_dev/lib --check-stamp-file F:/github/new_proland_cmake/Proland_dev/lib/terrain/examples/terrain1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/github/new_proland_cmake/Proland_dev -BF:/github/new_proland_cmake/Proland_dev/lib --check-stamp-file F:/github/new_proland_cmake/Proland_dev/lib/terrain/examples/terrain1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/github/new_proland_cmake/Proland_dev/terrain/examples/terrain1/CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt;F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\github\new_proland_cmake\Proland_dev\lib\terrain\examples\terrain1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\terrain\examples\terrain1\HelloWorld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\ZERO_CHECK.vcxproj">
+      <Project>{C148DCCB-880C-3F33-9B8A-57311AEAB324}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\core\sources\proland\proland-core.vcxproj">
+      <Project>{11F4E340-209C-3164-BB0C-E84B6C9FB8FA}</Project>
+      <Name>proland-core</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\terrain\sources\proland\proland-terrain.vcxproj">
+      <Project>{44408BA1-7F65-3544-96B9-AC020468BF1C}</Project>
+      <Name>proland-terrain</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\libraries\stbi\stb_image.vcxproj">
+      <Project>{524214D4-9DAD-3AF3-952C-88A73F2BE264}</Project>
+      <Name>stb_image</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\new_proland_cmake\Proland_dev\lib\libraries\tinyxml\tinyxml.vcxproj">
+      <Project>{EA25CB7F-DE50-39F5-A907-10374614CA72}</Project>
+      <Name>tinyxml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

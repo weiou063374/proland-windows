@@ -1,0 +1,16 @@
+﻿  Building Custom Rule F:/github/new_proland_cmake/Proland_dev/ocean/examples/ocean2/CMakeLists.txt
+  CMake does not need to re-run because F:/github/new_proland_cmake/Proland_dev/lib/ocean/examples/ocean2/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+  HelloWorld.cpp
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(59): error C2079: “AtmoParameters”使用未定义的 class“proland::PROLAND_ATMO_API”
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(60): error C2059: 语法错误:“public”
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(80): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(80): error C2365: “proland::AtmoParameters”: 重定义；以前的定义是“数据变量”
+  F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(58): note: 参见“proland::AtmoParameters”的声明
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(89): error C2144: 语法错误:“void”的前面应有“;”
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(89): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(89): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(91): error C2059: 语法错误:“}”
+F:\github\new_proland_cmake\Proland_dev\atmo\sources\proland/preprocess/atmo/PreprocessAtmo.h(91): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+F:\github\new_proland_cmake\Proland_dev\ocean\examples\ocean2\HelloWorld.cpp(53): fatal error C1083: 无法打开包括文件: “proland/ui/BasicViewHandler.h”: No such file or directory

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B378CCB4-5EB0-31EC-9497-84F5642EEC7D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>demo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">demo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\github\new_proland_cmake\Proland_dev\demo\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">demo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\github\new_proland_cmake\Proland_dev\demo\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">demo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\github\new_proland_cmake\Proland_dev\demo\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">demo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\core\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ORK_API=__declspec(dllimport);TIXML_USE_STL;PROLAND_API=;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;PROLAND_API=__declspec(dllimport);CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>proland-core.lib;ork.lib;glew32.lib;pthreadVCE2.lib;AntTweakBar.lib;libtiff3.lib;stb_image.lib;tinyxml.lib;opengl32.lib;glu32.lib;glfw3.lib;freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Debug/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /WHOLEARCHIVE:ork.lib /WHOLEARCHIVE:proland-core.lib</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>
+      </ImportLibrary>
+      <ProgramDataBaseFile>../Debug/demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;PROLAND_API=__declspec(dllimport);CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;PROLAND_API=__declspec(dllimport);CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\proland-core.lib;..\ork.lib;..\pthreadVCE2.lib;..\AntTweakBar.lib;..\libtiff3.lib;..\stb_image.lib;..\tinyxml.lib;opengl32.lib;glu32.lib;..\glew32.lib;..\glfw3.lib;..\freeglut.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib;F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib;F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/ork.lib;F:/github/new_proland_cmake/Proland_dev/lib/ork.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/libraries;F:/github/new_proland_cmake/Proland_dev/libraries/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/new_proland_cmake/Proland_dev/demo/Release/demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/new_proland_cmake/Proland_dev/demo/Release/demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;PROLAND_API=__declspec(dllimport);CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;PROLAND_API=__declspec(dllimport);CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\proland-core.lib;..\ork.lib;..\pthreadVCE2.lib;..\AntTweakBar.lib;..\libtiff3.lib;..\stb_image.lib;..\tinyxml.lib;opengl32.lib;glu32.lib;..\glew32.lib;..\glfw3.lib;..\freeglut.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib;F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib;F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/ork.lib;F:/github/new_proland_cmake/Proland_dev/lib/ork.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/libraries;F:/github/new_proland_cmake/Proland_dev/libraries/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/new_proland_cmake/Proland_dev/demo/MinSizeRel/demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/new_proland_cmake/Proland_dev/demo/MinSizeRel/demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fPIC -fPIC -fPIC</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;PROLAND_API=__declspec(dllimport);CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROLAND_API=__declspec(dllexport);ORK_API=__declspec(dllimport);TIXML_USE_STL;PROLAND_API=__declspec(dllimport);CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\github\new_proland_cmake\Proland_dev\include;F:\github\new_proland_cmake\Proland_dev\libraries;F:\github\new_proland_cmake\Proland_dev\terrain\sources;F:\github\new_proland_cmake\Proland_dev\graph\sources;F:\github\new_proland_cmake\Proland_dev\edit\sources;F:\github\new_proland_cmake\Proland_dev\atmo\sources;F:\github\new_proland_cmake\Proland_dev\ocean\sources;F:\github\new_proland_cmake\Proland_dev\river\sources;F:\github\new_proland_cmake\Proland_dev\forest\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\proland-core.lib;..\ork.lib;..\pthreadVCE2.lib;..\AntTweakBar.lib;..\libtiff3.lib;..\stb_image.lib;..\tinyxml.lib;opengl32.lib;glu32.lib;..\glfw3.lib;..\freeglut.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib;F:/github/new_proland_cmake/Proland_dev/lib/glew32.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib;F:/github/new_proland_cmake/Proland_dev/lib/glfw3.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/lib/ork.lib;F:/github/new_proland_cmake/Proland_dev/lib/ork.lib/$(Configuration);F:/github/new_proland_cmake/Proland_dev/libraries;F:/github/new_proland_cmake/Proland_dev/libraries/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/new_proland_cmake/Proland_dev/demo/RelWithDebInfo/demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/new_proland_cmake/Proland_dev/demo/RelWithDebInfo/demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\demo\ProlandDemo.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\GraphPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\dem\ElevationCurveData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\dem\ElevationGraphLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\dem\ElevationMargin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\dem\RoadElevationLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\dem\WaterElevationLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\Area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\BasicCurvePart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\BasicGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\ComposedMargin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\Curve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\CurvePart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\FileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\FileWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\Graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\GraphListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\LazyArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\LazyCurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\LazyGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\LazyNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\LineCurvePart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\Margin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\producer\CurveData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\producer\CurveDataFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\producer\GraphLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\producer\GraphProducer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\graph\producer\Tesselator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\ortho\FieldsOrthoLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\ortho\ForestOrthoLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\ortho\LineOrthoLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\ortho\MaskOrthoLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\ortho\OrthoMargin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\ortho\RoadOrthoLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\ortho\WaterOrthoLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\github\new_proland_cmake\Proland_dev\graph\sources\proland\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{70537FCF-6EEF-3623-BE49-1FA56817F9F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

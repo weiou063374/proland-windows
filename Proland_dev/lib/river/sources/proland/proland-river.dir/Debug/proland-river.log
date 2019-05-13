@@ -1,0 +1,99 @@
+﻿  Building Custom Rule F:/github/new_proland_cmake/Proland_dev/river/sources/proland/CMakeLists.txt
+  CMake does not need to re-run because F:/github/new_proland_cmake/Proland_dev/lib/river/sources/proland/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+cl : 命令行 warning D9002: 忽略未知选项“-fPIC”
+  RiverPlugin.cpp
+  AnimatedPerlinWaveTile.cpp
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/WaveTile.h(178): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::WaveTile”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/AnimatedPerlinWaveTile.h(137): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::AnimatedPerlinWaveTile”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\AnimatedPerlinWaveTile.cpp(271): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\AnimatedPerlinWaveTile.cpp(332): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=GLfloat
+          ]
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\AnimatedPerlinWaveTile.cpp(341): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=GLfloat
+          ]
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\AnimatedPerlinWaveTile.cpp(354): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+  DrawRiversTask.cpp
+F:\github\new_proland_cmake\Proland_dev\include\ork/scenegraph/AbstractTask.h(82): warning C4251: “ork::AbstractTask::QualifiedName::target”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“ork::AbstractTask::QualifiedName”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\ork/scenegraph/AbstractTask.h(87): warning C4251: “ork::AbstractTask::QualifiedName::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“ork::AbstractTask::QualifiedName”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/DrawRiversTask.h(48): fatal error C1083: 无法打开包括文件: “proland/particles/ParticleProducer.h”: No such file or directory
+  HydroFlowProducer.cpp
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/producer/GraphProducer.h(46): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  HydroFlowTile.cpp
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/HydroFlowTile.h(49): fatal error C1083: 无法打开包括文件: “proland/particles/terrain/FlowTile.h”: No such file or directory
+  PerlinWaveTile.cpp
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/WaveTile.h(178): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::WaveTile”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/PerlinWaveTile.h(127): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::PerlinWaveTile”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\PerlinWaveTile.cpp(215): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\PerlinWaveTile.cpp(279): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+  UpdateRiversTask.cpp
+F:\github\new_proland_cmake\Proland_dev\include\ork/scenegraph/AbstractTask.h(82): warning C4251: “ork::AbstractTask::QualifiedName::target”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“ork::AbstractTask::QualifiedName”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\github\new_proland_cmake\Proland_dev\include\ork/scenegraph/AbstractTask.h(87): warning C4251: “ork::AbstractTask::QualifiedName::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“ork::AbstractTask::QualifiedName”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/producer/GraphProducer.h(46): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  WaveTile.cpp
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/WaveTile.h(178): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::WaveTile”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\WaveTile.cpp(113): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=GLfloat
+          ]
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\WaveTile.cpp(122): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=GLfloat
+          ]
+  HydroCurve.cpp
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileWriter.h(134): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileWriter”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileReader.h(130): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileReader”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Graph.h(1087): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Graph”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Node.h(180): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Node”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(113): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Vertex”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(778): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Curve”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/graph/HydroCurve.h(145): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::HydroCurve”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland\rivers\graph\HydroCurve.cpp(44): fatal error C1083: 无法打开包括文件: “proland/math/seg2.h”: No such file or directory
+  HydroGraph.cpp
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileWriter.h(134): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileWriter”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileReader.h(130): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileReader”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Graph.h(1087): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Graph”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Node.h(180): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Node”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(113): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Vertex”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(778): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Curve”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Area.h(46): fatal error C1083: 无法打开包括文件: “proland/math/seg2.h”: No such file or directory
+  HydroGraphFactory.cpp
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/producer/GraphProducer.h(46): fatal error C1083: 无法打开包括文件: “proland/producer/TileProducer.h”: No such file or directory
+  LazyHydroCurve.cpp
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileWriter.h(134): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileWriter”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileReader.h(130): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileReader”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Graph.h(1087): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Graph”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Node.h(180): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Node”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(113): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Vertex”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(778): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Curve”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/graph/HydroCurve.h(145): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::HydroCurve”的左侧
+F:\github\new_proland_cmake\Proland_dev\river\sources\proland/rivers/graph/LazyHydroCurve.h(283): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::LazyHydroCurve”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Area.h(46): fatal error C1083: 无法打开包括文件: “proland/math/seg2.h”: No such file or directory
+  LazyHydroGraph.cpp
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileWriter.h(134): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileWriter”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileReader.h(130): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileReader”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Graph.h(1087): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Graph”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Node.h(180): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Node”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(113): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Vertex”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(778): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Curve”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Area.h(46): fatal error C1083: 无法打开包括文件: “proland/math/seg2.h”: No such file or directory
+  LazyHydroGraphFactory.cpp
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileWriter.h(134): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileWriter”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/FileReader.h(130): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::FileReader”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Graph.h(1087): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Graph”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Node.h(180): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Node”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(113): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Vertex”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Curve.h(778): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“proland::Curve”的左侧
+F:\github\new_proland_cmake\Proland_dev\graph\sources\proland/graph/Area.h(46): fatal error C1083: 无法打开包括文件: “proland/math/seg2.h”: No such file or directory
+  正在生成代码...
